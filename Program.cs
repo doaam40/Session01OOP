@@ -1,4 +1,6 @@
-﻿namespace Session01_AssignmentOOP
+﻿using Session01_AssignmentOOP.Struct;
+
+namespace Session01_AssignmentOOP
 {
     internal class Program
     {
@@ -25,11 +27,19 @@
 
             #endregion
 
+            #region Part 02 : Practical
+
+            #region Q1
+            DeliveryAddress deliveryAddress1 = new DeliveryAddress("Cairo", "AL-Nasr", 10);
+            DeliveryAddress deliveryAddress2 = deliveryAddress1;
+            deliveryAddress2.City = "Alex";
+            Console.WriteLine(deliveryAddress1.City);
+            Console.WriteLine(deliveryAddress2.City);
+            #endregion
+
+            #endregion
+
             
-
-
         }
     }
-
-    
 }
