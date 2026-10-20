@@ -38,6 +38,9 @@
             Console.WriteLine(deliveryAddress2.GetFullAddress());
             #endregion
 
+            #region Q2
+            #endregion
+
             #endregion
         }
     }
