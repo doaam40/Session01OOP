@@ -25,6 +25,20 @@
             #endregion
 
             #endregion
+
+            #region Part 02 : Practical
+
+            #region Q1
+            DeliveryAddress deliveryAddress1 = new DeliveryAddress("Cairo", "AL-Nasr", 10);
+            DeliveryAddress deliveryAddress2 = deliveryAddress1;
+            deliveryAddress2.City = "Alex";
+            deliveryAddress2.Street = "Tahrir";
+            deliveryAddress2.BuildingNumber = 40;
+            Console.WriteLine(deliveryAddress1.GetFullAddress());
+            Console.WriteLine(deliveryAddress2.GetFullAddress());
+            #endregion
+
+            #endregion
         }
     }
 }
