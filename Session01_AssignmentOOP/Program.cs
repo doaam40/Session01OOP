@@ -57,7 +57,7 @@
 
             DeliveryCenter deliveryCenter = new DeliveryCenter();
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Console.WriteLine($"Enter Shipment {i + 1} Data");
                 Console.Write("Tracking Code: ");
